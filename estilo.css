@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+body{
+    background-color: #f8e9e9;
+}
+
+a:hover {
+    color: rgb(123, 116, 116);
+  }
+
+i:hover {
+    color: rgb(225, 203, 203);
+  }
+
+img:hover{
+    opacity: .6 ;
+}
+
+button:hover{
+    opacity: .6 ;
+}
+
+.m-0{
+    margin: 0px;
+}
+
+.flex{
+    display: flex;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.color-cafe{
+    color: #973030;
+}
+
+.margin-right-left{
+    margin-right: 65px;
+    margin-left: 65px;
+}
+
+.text-negritas{
+    font-weight: bold
+}
+
+
+.contenedor-bot-prec{
+    height: 50px;    
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.boton{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: #911E0E;
+}
+
+.posicion-boton{
+    position: relative;
+    bottom: -10px;
+    right: -30px;
+}
+
+header{
+    background-color: white;
+    width: 100%;
+    height: 115px;
+}
+
+
+.titulo{
+    font-family: 'Caveat',cursive;
+    font-weight: 700;
+    font-size: 70px;
+    margin: 0px;
+    text-align: center;
+}
+
+.buscador{
+    display: flex;
+    justify-content:space-around;
+    height: 30px;
+    width: 30%;
+    position: absolute;
+    right: 100px;
+    top: 50px;
+}
+
+.icono_search{
+    font-size: 20px;  
+    border: 3.5px solid #C7C7C8;
+}
+
+.tamaño_icono_buscador{
+    font-size: 20px; 
+}
+
+.tamaño-texto-conocenos{
+    font-size: 20px;
+}
+
+.icono_rojo{
+    display: flex;
+}
+
+.icono_rojo_estilo_corazon{
+    color: red;
+    position: relative;
+    left: -1px;
+}
+
+.icono_rojo_estilo_compras{
+    color: red;
+}
+
+
+.input-buscar{
+    border-radius: 15px 0px 0px 15px ;
+    border: 3px solid #DEB0B0;
+    position: relative;
+    top: -3px;
+    right: -1px;
+    height: 28.5px;
+    width: 250px;
+}
+
+.input-email{
+    width: 100%;
+    border: 3px solid #CDBBA3;
+}
+
+.correo-boton{
+    display: flex;
+}
+
+
+i{
+    color: black;
+}
+
+nav{
+    text-align: center;
+    width: 100%;
+    height: 45px;
+    background-color: #B69A76;
+    font-size: 25px; 
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration:none;
+}
+
+.posicion{
+    display: flex;
+    justify-content:space-around;
+    margin-right: 300px;
+    margin-left: 300px;
+    position: relative;
+    bottom: -10px;
+}
+
+.fondoImagen{
+    background-color: aqua;
+    background-image: url("imagenes/Portada/portada.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+    width: 100%;
+    height: 450px;
+}
+
+.textColor{
+    color: #FFFFFF;
+}
+
+.texto_portada_sup{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 50px; 
+    position: relative;
+    bottom: -120px;
+}
+
+.texto_portada_Inf{
+    text-align: center;
+    position: relative;
+    bottom: -180px;
+    font-size: 25px;
+}
+
+footer{
+    background-color: #B69A76;
+    width: 100%;
+    height: 450px;
+}
+
+.titulo-footer{
+    margin-top: 15px;
+    margin-right: 25px;
+    margin-left: 25px;
+    color: #FFFFFF;
+    font-size: 20px;
+    height: 40px;
+    width: 50%;
+    border-bottom: 3px solid white;    
+}
+
+.titulos-footer{
+    display: flex;
+    width: 100%;
+}
+
+.textos-fotter{
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+
+.texto-fotter{
+    color: white;
+    margin-right: 25px;
+    margin-left: 25px;
+    width: 50%;
+}
+
+.redes-sociales{
+    text-align: center;
+    word-spacing: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.texto3-fotter{
+    color: white;
+    margin-right: 25px;
+    margin-left: 25px;
+    width: 50%;
+    word-spacing: 12px;
+}
+
+.derechos-reservados{
+    color: white;
+    text-align: center;
+}
+
+article{
+    background-color: white;
+    width: 100%;
+    height: 430px;
+    display: flex;
+}
+
+.article-contenedor{
+    margin-right: 65px;
+    margin-left: 65px;
+    width: 50%;
+    height: 430px;
+}
+
+.img-conocenos{
+    margin-top: 20px;
+    width: 80%;
+    height: 330px;
+}
+
+
+main{
+    background-color: white;
+    width: 100%;
+    height: 1600px;
+}
+
+section{
+    width: 100%;
+    height: 750px;
+}
+
+.main-posicion-titulos{
+    position: relative;
+    bottom: -80px;
+}
+
+.contenedor-libros{
+    width: 100%;
+    height: 750px;
+    display: flex;
+}
+
+
+.portada-libro{
+    width: 80%;
+    height: 400px;
+}
+
+.tarjeta-libro{
+    width: 25%;
+    height: 550px;
+    position: relative;
+    bottom: -130px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.libros{
+    overflow: auto;
+}
+
+.fit-content{
+    width: fit-content;
+}
+
+.enlace-ver-mas{
+    text-align: right;
+    margin-right: 10px;
+    position: relative;
+    bottom: -100px;
+}
