@@ -167,7 +167,7 @@ a{
 
 .fondoImagen{
     background-color: aqua;
-    background-image: url("imagenes/Portada/portada.jpg");
+    background-image: url("../imagenes/Portada/portada.jpg");
     background-repeat: no-repeat;
     background-size: 100% 600px;
     width: 100%;
